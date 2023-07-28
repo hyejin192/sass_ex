@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+
+// font
+$ff: 'Noto Sans KR', sans-serif;
+$fw-l : 300;
+$fw-n : 400;
+$fw-b : 700;
+
+// colors
+$color-white : #fff;
+$color-blue : #1359c2;
+$color-light-gray : rgba(0,0,0,0.1);
+$color-gray : rgba(0,0,0,.5);
+$color-dark-gray : rgba(0,0,0,0.6);
+
+// ----------- 
+$color-accent : $color-blue;
+$color-body : $color-gray;
+$color-heading : $color-accent;
+
+$fs-normal : 16px; // 1rem
+$fx-h1 : (56px/$fs-normal)*1rem;
+$fs-body : (24px/$fs-normal)*1rem;
+
+$fs-xl : (72px/$fs-normal)*1rem;
+$fs-l : (32px/$fs-normal)*1rem;
+$fs-sm : (16px/$fs-normal)*1rem;
+
+$ls : 5px; // letter-spacing
+
+// etc
+$spacer : 1rem;
+$bs : 0 0 1rem $color-light-gray; // box-shadow
+$bs-accent : 0 0 1rem $color-dark-gray; 
